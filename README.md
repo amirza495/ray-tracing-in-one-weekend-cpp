@@ -15,3 +15,11 @@ make
 ```
 
 This will produce a ppm image, which can be opened in most standard image viewers.
+
+
+### Converting ppm image to jpeg
+
+The ppm image can be converted into jpeg using `ffmpeg`.
+```bash
+ffmpeg -i input_image.ppm output_image_name.jpg
+```
